@@ -1,0 +1,10 @@
+@media screen and (min-width: 48em) {
+    .has-header-image:not(.twentyseventeen-front-page).home .custom-header-media,
+    .has-header-video:not(.twentyseventeen-front-page).home .custom-header-media {
+        height: 100vh !important;
+    }
+    .has-header-image:not(.twentyseventeen-front-page).home.admin-bar .custom-header-media,
+    .has-header-video:not(.twentyseventeen-front-page).home.admin-bar .custom-header-media {
+        height: calc(100vh - 32px) !important;
+    }
+}
